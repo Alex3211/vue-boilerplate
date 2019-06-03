@@ -1,0 +1,16 @@
+@import '@/styles/color.scss';
+@import '@/styles/font.scss';
+
+* {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.base-background {
+  height: 100%;
+  width: 100%;
+  background-color: $background-color;
+  box-shadow: 0 2px 4px 0 rgba(94, 94, 94, 0.5), 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
